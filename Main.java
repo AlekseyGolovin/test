@@ -33,15 +33,15 @@ public class Main {
         String dbLocation = "localhost/3050:C:\\ProgramData\\UkrSklad6S\\db\\Sklad.tcb";
 
         // Настройки отправки почты
-        String mailTo = "aleksey.golovin@ukr.net";
-        String mailFrom = "aleksey.golovin@ukr.net";
+        String mailTo = "**********@***";
+        String mailFrom = "**********@***";
         String mailFromPerson = "Aleksey Golovin";
-        String mailPassword = "y1ZZxSmOm7xbDq0P";
-        String mailSmtpHost = "smtp.ukr.net";
+        String mailPassword = "***************";
+        String mailSmtpHost = "smtp.host.net";
         String mailSmtpPort = "465";
 
         // Настройки CRM
-        String crmApiKey = "V-HoV2-l29LfPLXDKJrzqrhNucUtlE";
+        String crmApiKey = "*************************";
 
         // Тело для письма если отсутствуют штрихкоды
         String mailText = "";
@@ -117,7 +117,7 @@ public class Main {
                         // штрихкод есть
 
                         // Шлем запрос в СРМ
-                        String url = "http://b2b.select-sport.com.ua/api/v1/search?key="+crmApiKey+"&barcode="+productBarCode;
+                        String url = "http://crm.com/api/v1/search?key="+crmApiKey+"&barcode="+productBarCode;
 
                         URL urlobj = new URL(url);
                         HttpURLConnection httpConnection = (HttpURLConnection) urlobj.openConnection();
