@@ -30,7 +30,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         // Настройки Базы данных
-        String dbLocation = "localhost/3050:C:\\ProgramData\\UkrSklad6S\\db\\Sklad.tcb";
+        String dbLocation = "localhost/3050:C:\\ProgramData\\Sklad.tcb";
 
         // Настройки отправки почты
         String mailTo = "**********@***";
